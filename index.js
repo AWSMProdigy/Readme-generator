@@ -69,7 +69,7 @@ inquirer.prompt([
             myLicense = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
             break;
     }
-    var readmeSkeleton = `# ${response.title}\n## Description\n${response.purpose}\n## Table of Contents:\n* [Installation](#installation)\n* [Usage](#usage)\n* [Licensing](#licensing)\n* [Contributing](#contributing)\n* [Tests](#tests)\n\n## Installation:\n${response.installation}\n\n## Usage:\n${response.usage}\n\n## Licensing:\n${myLicense}\n\n## Contributing:\n${response.contributions}\n\n## Tests:\n${response.test}\n\n###If you have any questions about the repo, open an issue or contact me directly at ${response.email}. You can find more of my work at [${response.github}((https://github.com/${response.github}/).`
+    var readmeSkeleton = `# ${response.title}\n## Description\n${response.purpose}\n## Table of Contents:\n* [Installation](#installation)\n* [Usage](#usage)\n* [Licensing](#licensing)\n* [Contributing](#contributing)\n* [Tests](#tests)\n\n## Installation:\n${response.installation}\n\n## Usage:\n${response.usage}\n\n## Licensing:\n${myLicense}\n\n## Contributing:\n${response.contributions}\n\n## Tests:\n${response.test}\n\n### If you have any questions about the repo, open an issue or contact me directly at ${response.email}. You can find more of my work at [${response.github}((https://github.com/${response.github}/).`
 
     fs.appendFile('README.md', readmeSkeleton, (err) =>
     // TODO: Describe how this ternary operator works
