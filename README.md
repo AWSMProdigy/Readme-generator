@@ -1,5 +1,7 @@
 # Readme Generator
 
+https://www.youtube.com/watch?v=H38-mW49dyo
+
 ## Description
 To streamline the readme creation process to speed up project production
 ## Table of Contents:
@@ -24,4 +26,4 @@ Fork the repository and add any desired changes
 ## Tests:
 Use node index.js and check the output after fulfulling inquiries
 
-###If you have any questions about the repo, open an issue or contact me directly at StraightAKyle@gmail.com. You can find more of my work at [AWSMProdigy((https://github.com/AWSMProdigy/).
+### If you have any questions about the repo, open an issue or contact me directly at StraightAKyle@gmail.com. You can find more of my work at [AWSMProdigy((https://github.com/AWSMProdigy/).
